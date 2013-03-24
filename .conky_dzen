@@ -1,0 +1,13 @@
+short_units yes
+background yes
+out_to_console yes
+out_to_x no
+
+update_interval 10
+update_interval_on_battery 60
+ 
+TEXT
+^fg(\#ffee55) ^i(/home/eugeneyche/.xmonad/dzen2/wifi_01.xbm) ^fg(\#828a8c)${wireless_essid wlp3s0} \
+^fg(\#ffee55) ^i(/home/eugeneyche/.xmonad/dzen2/bat_full_01.xbm) ^fg(\#828a8c)${battery_percent}% \
+^fg(\#ffee55) ^i(/home/eugeneyche/.xmonad/dzen2/arch_10x10.xbm) ^fg(\#828a8c)${exec uname -r} ^ca() \
+^fg(\#ffee55) ^i(/home/eugeneyche/.xmonad/dzen2/clock.xbm) ^fg(\#cdcdcd)${time %I:%M %P} \
